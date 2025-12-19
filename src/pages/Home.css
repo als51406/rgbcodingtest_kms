@@ -1,0 +1,53 @@
+#homeWrap {width: 100%;}
+.banner {width: 100%; height: 900px; background-image: url(/public/images/home-bg.png); background-size: 100%;}
+
+.slide1, .slide2, .slide3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #fff;
+    
+    
+}
+
+.slide1 {background-image: url(/images/home-bg.png); padding: 0 180px;}
+.slide1 p {font-size: 20px;}
+.slide1 p:nth-child(2) {font-size: 68px; font-weight:700; line-height: 1.2; padding-bottom: 60px;}
+
+
+
+.slide2 {background-image: url(/images/home-bg2.png); padding: 0 180px;}
+.slide2 p {font-size: 20px;}
+.slide2 p:nth-child(2) {font-size: 68px; font-weight:700; line-height: 1.2; padding-bottom: 60px;}
+
+
+
+.slide3 {background-image: url(/images/home-bg.png); padding: 0 180px;}
+.slide3 p {font-size: 20px;}
+.slide3 p:nth-child(2) {font-size: 68px; font-weight:700; line-height: 1.2; padding-bottom: 60px;}
+
+
+/* Swiper 페이지네이션 디자인*/
+.swiper-section .swiper-pagination {
+     position: absolute; left: -35%; bottom: 75px
+}
+
+.swiper-section .swiper-pagination-bullet {
+    width: 60px;
+    height: 3px;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.swiper-section .swiper-pagination-bullet-active {
+    background: #ffffff;
+    width: 80px;
+}

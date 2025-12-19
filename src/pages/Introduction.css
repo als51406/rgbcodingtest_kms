@@ -1,0 +1,27 @@
+#introductionWrap {width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: start;}
+#introductionWrap section{ padding: 135px 120px; width: 1520px; height: 421px; display: flex; flex-direction: column;  align-items: start;}
+
+.intro {width: 100%; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+
+h2{ color: red; font-weight: bold; font-size: 24px; text-align: start; position: relative;}
+h2::before {content: url(/public/images/Union.png); position: absolute; left:-30px; top: 0.5px; }
+
+.intro-main {width: 466px; height: 421px; display: flex; flex-direction: column; justify-content: space-between;}
+.intro-main p:nth-child(1) {font-weight: bold; font-size: 50px; line-height: 1.2;}
+.intro-main p:nth-child(2) {font-weight: 400; font-size: 18px;}
+.intro-main .intro-btn {position: relative; font-size: 18px; color: #737373; padding-bottom: 20px; background: none; border: none; border-bottom: 2px solid #D2D2D2; text-align: start;}
+.intro-main .intro-btn::after {position: absolute; right: 1px;; content: url(/public/images/red-arrow.png);}
+
+
+
+.intro-sub {width: 924px; height: 413px; display: flex; align-items: start; }
+.intro-sub li { width: 288px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+.intro-sub li div {width: 288px; height: 288px;}
+.intro-sub li p:nth-child(2){font-weight: bold; font-size: 24px;}
+.intro-sub li p:nth-child(3){font-weight: 400; font-size: 15px;}
+
+
+.intro-sub li .intro-png-1 {background-image: url(/images/intro-png-1.png);}
+.intro-sub li .intro-png-2 {background-image: url(/images/intro-png-2.png);}
+.intro-sub li .intro-png-3 {background-image: url(/images/intro-png-3.png);}
+
