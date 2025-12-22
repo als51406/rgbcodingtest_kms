@@ -1,14 +1,14 @@
-#productWrap {width: 100%;min-height: 920px;display: flex;justify-content: center;align-items: center;background-color: #fff;padding: 60px 0;}
+#productWrap {margin-bottom: 150px; width: 100%;min-height: 920px;display: flex;justify-content: center;align-items: center;background-color: #fff;padding: 60px 0;}
 
 .product-section {width: 1510px;display: flex;flex-direction: column;position: relative;}
-.product-bg {left: 35%; width: 1034px; height: 813px; position: absolute; background-color: #F6F7F9; z-index: 1; }
+.product-bg {left: 38%; width: 1034px; height: 813px; position: absolute; background-color: #F6F7F9; z-index: 1; }
 .product-left { position: absolute;left: -80px;top: 50%;transform: translateY(-50%);writing-mode: vertical-rl;text-orientation: mixed;z-index: 1;}
 .product-left h2 {left: 0; top:5%; color: red; font-weight: bold; font-size: 24px; text-align: start; position: absolute; transform: rotate(180deg);}
 .product-left h2::before {content: url(/public/images/Union.png); position: absolute; left:5%; top: 110%; transform: rotate(270deg); }
 .product-left h3 {font-size: 160px;font-weight: bold;color: #CBCBCD;letter-spacing: 0.05em;margin: 0;transform: rotate(180deg);}
 
 
-.product-main {width: 100%;height: 600px;margin-bottom: 40px;display: flex;justify-content: center;align-items: center;gap: 80px;padding: 0 180px;z-index: 100;}
+.product-main {width: 100%;height: 600px;margin-bottom: 40px;display: flex;justify-content: center;align-items: center;gap: 80px;z-index: 100;}
 .product-image-slider {flex: 1;max-width: 660px;height: 100%;}
 .product-swiper {width: 100%;height: 100%;}
 .product-image {width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
@@ -23,7 +23,7 @@
 
 
 .product-navigation {display: flex;gap: 12px;}
-.nav-button {width: 50px;height: 50px;border: none;background-color: #fff;border: 1px solid #ddd;border-radius: 50%;font-size: 28px;color: #666;cursor: pointer;display: flex;justify-content: center;align-items: center;transition: all 0.3s;line-height: 1;}
+.nav-button {width: 50px;height: 50px;border: none;background-color: #fff;border: 1px solid #ddd;border-radius: 50%;font-size: 28px;color: #D9D9D9;cursor: pointer;display: flex;justify-content: center;align-items: center;transition: all 0.3s;line-height: 1;}
 
 
 .nav-button:hover {background-color: #E60012;color: white;border-color: #E60012;}

@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div id="headerWrap">
         <header>
-        <h1><Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>덱스코원</Link></h1>
+        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}><h1>덱스코원</h1></Link>
         <nav>
             <ul>
                 <li><Link to="/회사소개">회사소개</Link></li>

@@ -9,7 +9,7 @@
 .intro-main {width: 466px; height: 421px; display: flex; flex-direction: column; justify-content: space-between;}
 .intro-main p:nth-child(1) {font-weight: bold; font-size: 50px; line-height: 1.2;}
 .intro-main p:nth-child(2) {font-weight: 400; font-size: 18px;}
-.intro-main .intro-btn {position: relative; font-size: 18px; color: #737373; padding-bottom: 20px; background: none; border: none; border-bottom: 2px solid #D2D2D2; text-align: start;}
+.intro-main .intro-btn {cursor: pointer; position: relative; font-size: 18px; color: #737373; padding-bottom: 20px; background: none; border: none; border-bottom: 2px solid #D2D2D2; text-align: start;}
 .intro-main .intro-btn::after {position: absolute; right: 1px;; content: url(/public/images/red-arrow.png);}
 
 
