@@ -2,7 +2,7 @@ import './Introduction.css'
 const Introduction = () => {
   return (
     <div id="introductionWrap">
-            <section>
+            <section className='introduction-section'>
                 <h2>company</h2>
                 <div className='intro'>
                     <div className='intro-main'>

@@ -1,0 +1,34 @@
+#productWrap {width: 100%;min-height: 920px;display: flex;justify-content: center;align-items: center;background-color: #fff;padding: 60px 0;}
+
+.product-section {width: 1510px;display: flex;flex-direction: column;position: relative;}
+.product-bg {left: 35%; width: 1034px; height: 813px; position: absolute; background-color: #F6F7F9; z-index: 1; }
+.product-left { position: absolute;left: -80px;top: 50%;transform: translateY(-50%);writing-mode: vertical-rl;text-orientation: mixed;z-index: 1;}
+.product-left h2 {left: 0; top:5%; color: red; font-weight: bold; font-size: 24px; text-align: start; position: absolute; transform: rotate(180deg);}
+.product-left h2::before {content: url(/public/images/Union.png); position: absolute; left:5%; top: 110%; transform: rotate(270deg); }
+.product-left h3 {font-size: 160px;font-weight: bold;color: #CBCBCD;letter-spacing: 0.05em;margin: 0;transform: rotate(180deg);}
+
+
+.product-main {width: 100%;height: 600px;margin-bottom: 40px;display: flex;justify-content: center;align-items: center;gap: 80px;padding: 0 180px;z-index: 100;}
+.product-image-slider {flex: 1;max-width: 660px;height: 100%;}
+.product-swiper {width: 100%;height: 100%;}
+.product-image {width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
+.product-image img {width: 100%;height: auto;object-fit: contain;max-height: 500px;}
+
+
+.product-info {flex: 1;max-width: 500px;display: flex;flex-direction: column;align-items: flex-start;}
+.product-badge {background-color: #E60012;color: white;padding: 6px 18px;border-radius: 20px;font-size: 13px;font-weight: 500;margin-bottom: 24px;}
+.product-info h3 {font-size: 52px;font-weight: bold;color: #000;margin: 0 0 12px 0;line-height: 1.1;}
+.product-info h4 {font-size: 26px;font-weight: bold;color: #E60012;margin: 0 0 24px 0;}
+.product-info p {font-size: 15px;line-height: 1.7;color: #666;margin-bottom: 35px;}
+
+
+.product-navigation {display: flex;gap: 12px;}
+.nav-button {width: 50px;height: 50px;border: none;background-color: #fff;border: 1px solid #ddd;border-radius: 50%;font-size: 28px;color: #666;cursor: pointer;display: flex;justify-content: center;align-items: center;transition: all 0.3s;line-height: 1;}
+
+
+.nav-button:hover {background-color: #E60012;color: white;border-color: #E60012;}
+.product-thumbnails {display: flex;justify-content: center;align-items: center;gap: 18px;padding: 0 180px;z-index: 100;}
+.thumbnail-item {width: 90px;height: 90px;border: 3px solid transparent;transition: all 0.3s;display: flex;justify-content: center;align-items: center;overflow: hidden;background-color: #fff;padding: 8px;box-sizing: border-box;}
+.thumbnail-item.active {background-color: #E60012;border-color: #E60012;}
+.thumbnail-item img {width: 100%;height: 100%;object-fit: contain;}
+.thumbnail-item.active img {filter: brightness(1.2);}

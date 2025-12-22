@@ -3,6 +3,8 @@ import Footer from "../components/Footer"
 import { Header } from "../components/Header"
 import { Home } from "../pages/Home"
 import Introduction from "../pages/Introduction"
+import { Business } from '../pages/Business'
+import { Product } from '../pages/Product'
 
 export const Main = () => {
   return (
@@ -10,6 +12,8 @@ export const Main = () => {
        <Header/>
        <Home/>
        <Introduction/>
+       <Business/>
+       <Product/>
        <Footer/>
 
     </div>
