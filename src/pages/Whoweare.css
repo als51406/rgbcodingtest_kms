@@ -1,0 +1,141 @@
+#whoweareWrap {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F7F9;
+  
+  overflow: hidden;
+  position: relative;
+}
+
+.whoweare-bg {position: absolute; top: 30%;}
+
+.whoweare-section {
+  width: 1520px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whoweare-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.whoweare-header h2 {
+  color: #E60012;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.whoweare-header h2::before {
+  content: url(/images/Union.png);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateX(-100px);
+  top: 0.5px;
+}
+
+.whoweare-header h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+}
+
+.whoweare-content {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 650px;
+  padding: 130px 0;
+}
+
+.card-container {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-card {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.photo-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.center-text {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  padding: 40px 60px;
+  max-width: 600px;
+}
+
+.center-text h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.center-text .subtitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: #999;
+  margin-bottom: 35px;
+  letter-spacing: 1.5px;
+}
+
+.center-text .description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.whoweare-btn {
+  background-color: #E60012;
+  color: white;
+  border: none;
+  padding: 14px 45px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.whoweare-btn:hover {
+  background-color: #c00010;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(230, 0, 18, 0.3);
+}
