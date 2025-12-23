@@ -1,0 +1,31 @@
+#supportWrap {width: 100%; height: 1170px; display: flex; justify-content: center; align-items: center;}
+.support-section {width: 1523px;  height: 895px; display: flex; flex-direction: column; justify-content: start; align-items: start;}
+.support-section h2 {margin-bottom: 20px; color: red; font-weight: bold; font-size: 24px; text-align: start; position: relative;}
+.support-section h2::before {content: url(/images/Union.png); position: absolute; left:-30px; top: 0.5px;}
+
+.support-section .support-title {margin-bottom: 70px; font-size: 50px; font-weight: bold; position: relative;}
+.support-section .support-title .support-btn {cursor: pointer; right: -133%; top:68%; position: absolute; display: flex; flex-direction: row; justify-content: space-between; font-size: 18px; text-align: center;  width: 150px; height: 40px;  color: #737373; border: none; background-color: #fff; border-bottom: 1px solid #737373; }
+
+
+
+.support-section ul {margin-bottom: 80px; width: 100%; display: flex; flex-direction: row; justify-content: space-between; align-items: center;  list-style: none; }
+.support-section li {cursor: pointer; width: 354px; height: 420px; border: 1px solid #D2D2D2; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.support-section li .support-textbox {width: 258px; height: 330px;}
+.support-section li .support-textbox p:nth-child(1) {margin-bottom: 10px; color: red; font-size: 18px; font-weight: bold;}
+.support-section li .support-textbox p:nth-child(2) {padding-bottom: 30px;  font-size: 22px; font-weight: bold;}
+.support-section li .support-textbox p:nth-child(3) { padding-bottom: 100px; font-size: 16px; color: #737373;}
+.support-section li .support-textbox .support-time {padding-left: 20px; color: #737373; position: relative;}
+.support-section li .support-textbox .support-time::before {content: url(/images/Union-Watch.png); position: absolute; left:0%; top: 2px;}
+
+
+
+.support-section .support-customer {width: 1520px; height: 153px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+.support-section .support-customer .support-recruit {cursor: pointer; border: none; position: relative; padding: 0 48px; width: 743px; height: 153px; background-color: #E60012; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: start;}
+.support-section .support-customer .support-recruit p:nth-child(1) { padding-bottom: 20px; font-weight: bold; font-size: 22px;}
+.support-section .support-customer .support-recruit p:nth-child(2) {font-size: 16px;} 
+.support-section .support-customer .support-recruit::after {content: url(/images/Union-Support.png); position: absolute; right:8%; top: 40%;}
+
+.support-section .support-customer .support-ask {cursor: pointer; border: none; position: relative; padding: 0 48px; width: 743px; height: 153px; background-color: #2E3091; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: start;}
+.support-section .support-customer .support-ask p:nth-child(1) { padding-bottom: 20px; font-weight: bold; font-size: 22px;}
+.support-section .support-customer .support-ask p:nth-child(2){font-size: 16px;} 
+.support-section .support-customer .support-ask::after {content: url(/images/Union-Support.png); position: absolute; right:8%; top: 40%;}

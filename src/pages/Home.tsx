@@ -15,7 +15,7 @@ export const Home = () => {
                 spaceBetween={20}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                // autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 3000, disableOnInteraction: false }}
                 loop={true}
                 speed={600}
                 style={{ height: '900px' }}
@@ -29,7 +29,9 @@ export const Home = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='slide2'>
-                        <h3>슬라이드 2</h3>
+                        <p>SUPERIOR QUALITY, LOW RADIATION EXPOSURE</p>
+                        <p>IMPROVING PATIENT<br/>WELFARE</p>
+                        <p>환자의 불편 감소 및 동선 개선, 응급 및 초등 조치시 정확한<br/>진단으로 적절한 의료 조치 및 경과 향상에 기여합니다.</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>

@@ -6,6 +6,7 @@ import Introduction from "../pages/Introduction"
 import { Business } from '../pages/Business'
 import { Product } from '../pages/Product'
 import { Why } from '../pages/Why'
+import { Support } from '../pages/Support'
 
 export const Main = () => {
   return (
@@ -16,6 +17,7 @@ export const Main = () => {
        <Business/>
        <Product/>
        <Why/>
+       <Support/>
        <Footer/>
 
     </div>

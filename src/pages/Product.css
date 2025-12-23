@@ -4,7 +4,7 @@
 .product-bg {left: 38%; width: 1034px; height: 813px; position: absolute; background-color: #F6F7F9; z-index: 1; }
 .product-left { position: absolute;left: -80px;top: 50%;transform: translateY(-50%);writing-mode: vertical-rl;text-orientation: mixed;z-index: 1;}
 .product-left h2 {left: 0; top:5%; color: red; font-weight: bold; font-size: 24px; text-align: start; position: absolute; transform: rotate(180deg);}
-.product-left h2::before {content: url(/public/images/Union.png); position: absolute; left:5%; top: 110%; transform: rotate(270deg); }
+.product-left h2::before {content: url(/images/Union.png); position: absolute; left:5%; top: 110%; transform: rotate(270deg); }
 .product-left h3 {font-size: 160px;font-weight: bold;color: #CBCBCD;letter-spacing: 0.05em;margin: 0;transform: rotate(180deg);}
 
 
