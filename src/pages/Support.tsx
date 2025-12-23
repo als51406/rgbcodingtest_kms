@@ -9,8 +9,8 @@ export const Support = () => {
                 <p>의료 서비스 경쟁력 향상과<br/>환자의 복지 개선에 이바지합니다.</p>
                 <button className='support-btn'>전체보기
                     <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.10913 16.4185L16.9648 8.56274L9.10913 0.707029" stroke="#E60012" stroke-width="2"/>
-                    <line x1="16.7617" y1="8.60864" x2="6.86769e-07" y2="8.60864" stroke="#E60012" stroke-width="2"/>
+                    <path d="M9.10913 16.4185L16.9648 8.56274L9.10913 0.707029" stroke="#E60012" strokeWidth="2"/>
+                    <line x1="16.7617" y1="8.60864" x2="6.86769e-07" y2="8.60864" stroke="#E60012" strokeWidth="2"/>
                     </svg>
                 </button>
             </div>
