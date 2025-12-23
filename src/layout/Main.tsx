@@ -9,8 +9,16 @@ import { Why } from '../pages/Why'
 import { Support } from '../pages/Support'
 
 export const Main = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div id="mainWrap" >
+        
        <Header/>
        <Home/>
        <Introduction/>
@@ -19,6 +27,10 @@ export const Main = () => {
        <Why/>
        <Support/>
        <Footer/>
+
+       <button className="scroll-to-top" onClick={scrollToTop}>
+         TOP
+       </button>
 
     </div>
   )
